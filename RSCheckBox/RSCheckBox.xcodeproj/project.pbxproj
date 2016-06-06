@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BFB0D111D0520F000088F00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB0D101D0520F000088F00 /* main.m */; };
+		6BFB0D141D0520F000088F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB0D131D0520F000088F00 /* AppDelegate.m */; };
+		6BFB0D1C1D0520F000088F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BFB0D1B1D0520F000088F00 /* Assets.xcassets */; };
+		6BFB0D1F1D0520F000088F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFB0D1D1D0520F000088F00 /* LaunchScreen.storyboard */; };
+		6BFB0D2A1D0520F000088F00 /* RSCheckBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB0D291D0520F000088F00 /* RSCheckBoxTests.m */; };
+		6BFB0D351D0520F000088F00 /* RSCheckBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB0D341D0520F000088F00 /* RSCheckBoxUITests.m */; };
+		6BFB0D441D05217900088F00 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB0D431D05217900088F00 /* MainViewController.m */; };
+		6BFB0D471D0523F800088F00 /* RSCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB0D461D0523F800088F00 /* RSCheckBox.m */; };
+		6BFB0D4C1D05417F00088F00 /* checkbox1_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BFB0D481D05417F00088F00 /* checkbox1_checked.png */; };
+		6BFB0D4D1D05417F00088F00 /* checkbox1_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BFB0D491D05417F00088F00 /* checkbox1_checked@2x.png */; };
+		6BFB0D4E1D05417F00088F00 /* checkbox1_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BFB0D4A1D05417F00088F00 /* checkbox1_unchecked.png */; };
+		6BFB0D4F1D05417F00088F00 /* checkbox1_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BFB0D4B1D05417F00088F00 /* checkbox1_unchecked@2x.png */; };
+		6BFB0D521D05580F00088F00 /* RSCheckGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB0D511D05580F00088F00 /* RSCheckGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BFB0D261D0520F000088F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFB0D041D0520F000088F00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFB0D0B1D0520F000088F00;
+			remoteInfo = RSCheckBox;
+		};
+		6BFB0D311D0520F000088F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFB0D041D0520F000088F00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFB0D0B1D0520F000088F00;
+			remoteInfo = RSCheckBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BFB0D0C1D0520F000088F00 /* RSCheckBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSCheckBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFB0D101D0520F000088F00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BFB0D121D0520F000088F00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BFB0D131D0520F000088F00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BFB0D1B1D0520F000088F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BFB0D1E1D0520F000088F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BFB0D201D0520F000088F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFB0D251D0520F000088F00 /* RSCheckBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCheckBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFB0D291D0520F000088F00 /* RSCheckBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCheckBoxTests.m; sourceTree = "<group>"; };
+		6BFB0D2B1D0520F000088F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFB0D301D0520F000088F00 /* RSCheckBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCheckBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFB0D341D0520F000088F00 /* RSCheckBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCheckBoxUITests.m; sourceTree = "<group>"; };
+		6BFB0D361D0520F000088F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFB0D421D05217900088F00 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6BFB0D431D05217900088F00 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6BFB0D451D0523F800088F00 /* RSCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCheckBox.h; sourceTree = "<group>"; };
+		6BFB0D461D0523F800088F00 /* RSCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCheckBox.m; sourceTree = "<group>"; };
+		6BFB0D481D05417F00088F00 /* checkbox1_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_checked.png; sourceTree = "<group>"; };
+		6BFB0D491D05417F00088F00 /* checkbox1_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_checked@2x.png"; sourceTree = "<group>"; };
+		6BFB0D4A1D05417F00088F00 /* checkbox1_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_unchecked.png; sourceTree = "<group>"; };
+		6BFB0D4B1D05417F00088F00 /* checkbox1_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_unchecked@2x.png"; sourceTree = "<group>"; };
+		6BFB0D501D05580F00088F00 /* RSCheckGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCheckGroup.h; sourceTree = "<group>"; };
+		6BFB0D511D05580F00088F00 /* RSCheckGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCheckGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BFB0D091D0520F000088F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFB0D221D0520F000088F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFB0D2D1D0520F000088F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BFB0D031D0520F000088F00 = {
+			isa = PBXGroup;
+			children = (
+				6BFB0D0E1D0520F000088F00 /* RSCheckBox */,
+				6BFB0D281D0520F000088F00 /* RSCheckBoxTests */,
+				6BFB0D331D0520F000088F00 /* RSCheckBoxUITests */,
+				6BFB0D0D1D0520F000088F00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BFB0D0D1D0520F000088F00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFB0D0C1D0520F000088F00 /* RSCheckBox.app */,
+				6BFB0D251D0520F000088F00 /* RSCheckBoxTests.xctest */,
+				6BFB0D301D0520F000088F00 /* RSCheckBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BFB0D0E1D0520F000088F00 /* RSCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				6BFB0D121D0520F000088F00 /* AppDelegate.h */,
+				6BFB0D131D0520F000088F00 /* AppDelegate.m */,
+				6BFB0D1B1D0520F000088F00 /* Assets.xcassets */,
+				6BFB0D1D1D0520F000088F00 /* LaunchScreen.storyboard */,
+				6BFB0D201D0520F000088F00 /* Info.plist */,
+				6BFB0D0F1D0520F000088F00 /* Supporting Files */,
+				6BFB0D421D05217900088F00 /* MainViewController.h */,
+				6BFB0D431D05217900088F00 /* MainViewController.m */,
+				6BFB0D451D0523F800088F00 /* RSCheckBox.h */,
+				6BFB0D461D0523F800088F00 /* RSCheckBox.m */,
+				6BFB0D481D05417F00088F00 /* checkbox1_checked.png */,
+				6BFB0D491D05417F00088F00 /* checkbox1_checked@2x.png */,
+				6BFB0D4A1D05417F00088F00 /* checkbox1_unchecked.png */,
+				6BFB0D4B1D05417F00088F00 /* checkbox1_unchecked@2x.png */,
+				6BFB0D501D05580F00088F00 /* RSCheckGroup.h */,
+				6BFB0D511D05580F00088F00 /* RSCheckGroup.m */,
+			);
+			path = RSCheckBox;
+			sourceTree = "<group>";
+		};
+		6BFB0D0F1D0520F000088F00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BFB0D101D0520F000088F00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BFB0D281D0520F000088F00 /* RSCheckBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BFB0D291D0520F000088F00 /* RSCheckBoxTests.m */,
+				6BFB0D2B1D0520F000088F00 /* Info.plist */,
+			);
+			path = RSCheckBoxTests;
+			sourceTree = "<group>";
+		};
+		6BFB0D331D0520F000088F00 /* RSCheckBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BFB0D341D0520F000088F00 /* RSCheckBoxUITests.m */,
+				6BFB0D361D0520F000088F00 /* Info.plist */,
+			);
+			path = RSCheckBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BFB0D0B1D0520F000088F00 /* RSCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFB0D391D0520F000088F00 /* Build configuration list for PBXNativeTarget "RSCheckBox" */;
+			buildPhases = (
+				6BFB0D081D0520F000088F00 /* Sources */,
+				6BFB0D091D0520F000088F00 /* Frameworks */,
+				6BFB0D0A1D0520F000088F00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSCheckBox;
+			productName = RSCheckBox;
+			productReference = 6BFB0D0C1D0520F000088F00 /* RSCheckBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BFB0D241D0520F000088F00 /* RSCheckBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFB0D3C1D0520F000088F00 /* Build configuration list for PBXNativeTarget "RSCheckBoxTests" */;
+			buildPhases = (
+				6BFB0D211D0520F000088F00 /* Sources */,
+				6BFB0D221D0520F000088F00 /* Frameworks */,
+				6BFB0D231D0520F000088F00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BFB0D271D0520F000088F00 /* PBXTargetDependency */,
+			);
+			name = RSCheckBoxTests;
+			productName = RSCheckBoxTests;
+			productReference = 6BFB0D251D0520F000088F00 /* RSCheckBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BFB0D2F1D0520F000088F00 /* RSCheckBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFB0D3F1D0520F000088F00 /* Build configuration list for PBXNativeTarget "RSCheckBoxUITests" */;
+			buildPhases = (
+				6BFB0D2C1D0520F000088F00 /* Sources */,
+				6BFB0D2D1D0520F000088F00 /* Frameworks */,
+				6BFB0D2E1D0520F000088F00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BFB0D321D0520F000088F00 /* PBXTargetDependency */,
+			);
+			name = RSCheckBoxUITests;
+			productName = RSCheckBoxUITests;
+			productReference = 6BFB0D301D0520F000088F00 /* RSCheckBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BFB0D041D0520F000088F00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = founderbn;
+				TargetAttributes = {
+					6BFB0D0B1D0520F000088F00 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6BFB0D241D0520F000088F00 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6BFB0D0B1D0520F000088F00;
+					};
+					6BFB0D2F1D0520F000088F00 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6BFB0D0B1D0520F000088F00;
+					};
+				};
+			};
+			buildConfigurationList = 6BFB0D071D0520F000088F00 /* Build configuration list for PBXProject "RSCheckBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BFB0D031D0520F000088F00;
+			productRefGroup = 6BFB0D0D1D0520F000088F00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BFB0D0B1D0520F000088F00 /* RSCheckBox */,
+				6BFB0D241D0520F000088F00 /* RSCheckBoxTests */,
+				6BFB0D2F1D0520F000088F00 /* RSCheckBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BFB0D0A1D0520F000088F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFB0D1F1D0520F000088F00 /* LaunchScreen.storyboard in Resources */,
+				6BFB0D4C1D05417F00088F00 /* checkbox1_checked.png in Resources */,
+				6BFB0D4F1D05417F00088F00 /* checkbox1_unchecked@2x.png in Resources */,
+				6BFB0D1C1D0520F000088F00 /* Assets.xcassets in Resources */,
+				6BFB0D4D1D05417F00088F00 /* checkbox1_checked@2x.png in Resources */,
+				6BFB0D4E1D05417F00088F00 /* checkbox1_unchecked.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFB0D231D0520F000088F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFB0D2E1D0520F000088F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BFB0D081D0520F000088F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFB0D141D0520F000088F00 /* AppDelegate.m in Sources */,
+				6BFB0D441D05217900088F00 /* MainViewController.m in Sources */,
+				6BFB0D111D0520F000088F00 /* main.m in Sources */,
+				6BFB0D471D0523F800088F00 /* RSCheckBox.m in Sources */,
+				6BFB0D521D05580F00088F00 /* RSCheckGroup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFB0D211D0520F000088F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFB0D2A1D0520F000088F00 /* RSCheckBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFB0D2C1D0520F000088F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFB0D351D0520F000088F00 /* RSCheckBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BFB0D271D0520F000088F00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BFB0D0B1D0520F000088F00 /* RSCheckBox */;
+			targetProxy = 6BFB0D261D0520F000088F00 /* PBXContainerItemProxy */;
+		};
+		6BFB0D321D0520F000088F00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BFB0D0B1D0520F000088F00 /* RSCheckBox */;
+			targetProxy = 6BFB0D311D0520F000088F00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BFB0D1D1D0520F000088F00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFB0D1E1D0520F000088F00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BFB0D371D0520F000088F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BFB0D381D0520F000088F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BFB0D3A1D0520F000088F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSCheckBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.founderbn.RSCheckBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BFB0D3B1D0520F000088F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSCheckBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.founderbn.RSCheckBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BFB0D3D1D0520F000088F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSCheckBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.founderbn.RSCheckBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSCheckBox.app/RSCheckBox";
+			};
+			name = Debug;
+		};
+		6BFB0D3E1D0520F000088F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSCheckBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.founderbn.RSCheckBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSCheckBox.app/RSCheckBox";
+			};
+			name = Release;
+		};
+		6BFB0D401D0520F000088F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSCheckBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.founderbn.RSCheckBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSCheckBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6BFB0D411D0520F000088F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSCheckBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.founderbn.RSCheckBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSCheckBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BFB0D071D0520F000088F00 /* Build configuration list for PBXProject "RSCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFB0D371D0520F000088F00 /* Debug */,
+				6BFB0D381D0520F000088F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFB0D391D0520F000088F00 /* Build configuration list for PBXNativeTarget "RSCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFB0D3A1D0520F000088F00 /* Debug */,
+				6BFB0D3B1D0520F000088F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BFB0D3C1D0520F000088F00 /* Build configuration list for PBXNativeTarget "RSCheckBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFB0D3D1D0520F000088F00 /* Debug */,
+				6BFB0D3E1D0520F000088F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BFB0D3F1D0520F000088F00 /* Build configuration list for PBXNativeTarget "RSCheckBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFB0D401D0520F000088F00 /* Debug */,
+				6BFB0D411D0520F000088F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BFB0D041D0520F000088F00 /* Project object */;
+}
